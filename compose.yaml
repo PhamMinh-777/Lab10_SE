@@ -1,0 +1,17 @@
+﻿services:
+  mvc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pamdqminh/lab10-mvc:latest
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+  razor:
+    build:
+      context: .
+      dockerfile: src/RazorPagesApp/Dockerfile
+    image: pamdqminh/lab10-razorpages:latest
+    ports:
+      - "8081:8080"
+    restart: unless-stopped

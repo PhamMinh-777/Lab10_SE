@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MvcApp/MvcApp.csproj" />
+    <Project Path="src/RazorPagesApp/RazorPagesApp.csproj" />
+  </Folder>
+</Solution>
